@@ -6,20 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>代码块 | Hexo</title>
+  <title>接口 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="代码块三种代码块：普通代码块、构造代码块、静态代码块 普通代码块在方法或语句中出现的{}就称为普通代码块。普通代码块和一般语句的执行顺序由他们在代码中出现的次序决定，先出现先执行。 1234567891011121314151617181920public class test&amp;#123;    public static void main(String[] args) &amp;#123;">
+  <meta name="description" content="接口接口就是给出一些没有实现的方法，封装到一起等到需要实现时把这些方法写出来 在JAVA编程语言中是一个抽象类型，是抽象方法的集合，接口通常以interface来声明。一个类通过继承接口的方式，从而来继承接口的抽象方法。 接口并不是类，编写接口的方式和类很相似，但是它们属于不同的概念。类描述对象的属性和方法。接口则包含类要实现的方法。 除非实现接口的类是抽象类，否则该类要定义接口中的所有方法。 接">
 <meta property="og:type" content="article">
-<meta property="og:title" content="代码块">
-<meta property="og:url" content="http://example.com/2021/08/29/%E4%BB%A3%E7%A0%81%E5%9D%97/index.html">
+<meta property="og:title" content="接口">
+<meta property="og:url" content="http://example.com/2021/08/30/%E6%8E%A5%E5%8F%A3/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="代码块三种代码块：普通代码块、构造代码块、静态代码块 普通代码块在方法或语句中出现的{}就称为普通代码块。普通代码块和一般语句的执行顺序由他们在代码中出现的次序决定，先出现先执行。 1234567891011121314151617181920public class test&amp;#123;    public static void main(String[] args) &amp;#123;">
+<meta property="og:description" content="接口接口就是给出一些没有实现的方法，封装到一起等到需要实现时把这些方法写出来 在JAVA编程语言中是一个抽象类型，是抽象方法的集合，接口通常以interface来声明。一个类通过继承接口的方式，从而来继承接口的抽象方法。 接口并不是类，编写接口的方式和类很相似，但是它们属于不同的概念。类描述对象的属性和方法。接口则包含类要实现的方法。 除非实现接口的类是抽象类，否则该类要定义接口中的所有方法。 接">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-08-28T16:00:00.000Z">
-<meta property="article:modified_time" content="2021-08-30T05:13:48.543Z">
+<meta property="article:published_time" content="2021-08-29T16:00:00.000Z">
+<meta property="article:modified_time" content="2021-08-30T07:28:47.407Z">
 <meta property="article:author" content="thyme">
-<meta property="article:tag" content="代码块">
-<meta property="article:tag" content="类加载">
+<meta property="article:tag" content="接口">
+<meta property="article:tag" content="interface">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -146,98 +146,83 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-代码块" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-接口" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      代码块
+      接口
     </h1>
   
 
         
-        <a href="/2021/08/29/%E4%BB%A3%E7%A0%81%E5%9D%97/" class="archive-article-date">
-  	<time datetime="2021-08-28T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-08-29</time>
+        <a href="/2021/08/30/%E6%8E%A5%E5%8F%A3/" class="archive-article-date">
+  	<time datetime="2021-08-29T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-08-30</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h1><p><em><strong>三种代码块：普通代码块、构造代码块、静态代码块</strong></em></p>
-<h2 id="普通代码块"><a href="#普通代码块" class="headerlink" title="普通代码块"></a>普通代码块</h2><p>在方法或语句中出现的{}就称为普通代码块。普通代码块和一般语句的执行顺序由他们在代码中出现的次序决定，先出现先执行。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">test</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">int</span> x=<span class="number">1</span>;</span><br><span class="line">            System.out.println(<span class="string">&quot;普通代码块变量x=&quot;</span>+x);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">int</span> x=<span class="number">2</span>;</span><br><span class="line">        System.out.println(<span class="string">&quot;主方法内变量x=&quot;</span>+x);</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">int</span> y=<span class="number">1</span>;</span><br><span class="line">            System.out.println(<span class="string">&quot;普通代码块变量x=&quot;</span>+y);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment"> *运行结果</span></span><br><span class="line"><span class="comment"> * 普通代码块变量x=1</span></span><br><span class="line"><span class="comment"> *主方法内变量x=2</span></span><br><span class="line"><span class="comment"> *普通代码块变量x=1</span></span><br><span class="line"><span class="comment"> */</span></span><br></pre></td></tr></table></figure>
-
-<span id="more"></span>
-
-<h2 id="构造代码块"><a href="#构造代码块" class="headerlink" title="构造代码块"></a>构造代码块</h2><p>直接在类中定义且没有加static关键字的代码块称为{}构造代码块。构造代码块在创建对象时被调用，每次创建对象都会被调用，并且构造代码块的执行次序优先于类构造函数。如果存在多个构造代码块，执行顺序由他们在代码中出现的次序决定，先出现先执行。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test1</span> </span>&#123;</span><br><span class="line">  &#123;</span><br><span class="line">    System.out.println(<span class="string">&quot;第一构造块&quot;</span>);</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="title">Test1</span><span class="params">(<span class="keyword">int</span> i)</span> </span>&#123;</span><br><span class="line">    System.out.println(<span class="string">&quot;第&quot;</span> + i + <span class="string">&quot;次调用&quot;</span> + <span class="string">&quot;构造方法&quot;</span>);</span><br><span class="line">  &#125;</span><br><span class="line">  &#123;</span><br><span class="line">    System.out.println(<span class="string">&quot;第二构造块&quot;</span>);</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">new</span> Test1(<span class="number">0</span>);</span><br><span class="line">    <span class="keyword">new</span> Test1(<span class="number">1</span>);</span><br><span class="line">    <span class="keyword">new</span> Test1(<span class="number">2</span>);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/* </span></span><br><span class="line"><span class="comment"> * 执行结果 第一构造块 </span></span><br><span class="line"><span class="comment"> *   第二构造块 </span></span><br><span class="line"><span class="comment"> *   第0次调用构造方法 </span></span><br><span class="line"><span class="comment"> *   第一构造块 </span></span><br><span class="line"><span class="comment"> *   第二构造块 </span></span><br><span class="line"><span class="comment"> *   第1次调用构造方法 </span></span><br><span class="line"><span class="comment"> *   第一构造块 </span></span><br><span class="line"><span class="comment"> *   第二构造块 </span></span><br><span class="line"><span class="comment"> *   第2次调用构造方法 </span></span><br><span class="line"><span class="comment"> */</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="静态代码块"><a href="#静态代码块" class="headerlink" title="静态代码块"></a>静态代码块</h2><p>在java中使用static关键字声明的代码块。静态块用于初始化类，为类的属性初始化。每个静态代码块只会执行一次。由于JVM在加载类时会执行静态代码块，所以静态代码块先于主方法执行。</p>
-<p>如果类中包含多个静态代码块，那么将按照”先定义的代码先执行，后定义的代码后执行”。</p>
-<p><em><strong>注意：</strong></em></p>
-<p><em><strong>1.静态代码块不能存在于任何方法体内。</strong></em></p>
-<p><em><strong>2.静态代码块不能直接访问实例变量和实例方法，需要通过类的实例对象来访问。</strong></em></p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">test</span> </span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> String STATIC_FIELD = <span class="string">&quot;静态属性&quot;</span>;</span><br><span class="line">    <span class="comment">// 静态块</span></span><br><span class="line">    <span class="keyword">static</span> &#123;</span><br><span class="line">        System.out.println(STATIC_FIELD);</span><br><span class="line">        System.out.println(<span class="string">&quot;静态代码块1&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> String field = <span class="string">&quot;非静态属性&quot;</span>;</span><br><span class="line">    <span class="comment">// 非静态块</span></span><br><span class="line">    &#123;</span><br><span class="line">        System.out.println(field);</span><br><span class="line">        System.out.println(<span class="string">&quot;非静态代码块2&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">test</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;无参构造函数&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">      test t1=<span class="keyword">new</span> test();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// 非静态块</span></span><br><span class="line">    &#123;</span><br><span class="line">        System.out.println(field);</span><br><span class="line">        System.out.println(<span class="string">&quot;非静态代码块1&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// 静态块</span></span><br><span class="line">    <span class="keyword">static</span> &#123;</span><br><span class="line">        System.out.println(STATIC_FIELD);</span><br><span class="line">        System.out.println(<span class="string">&quot;静态代码块2&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment"> * 运行结果 静态属性</span></span><br><span class="line"><span class="comment"> *      静态代码块1</span></span><br><span class="line"><span class="comment"> *      静态属性</span></span><br><span class="line"><span class="comment"> *      静态代码块2</span></span><br><span class="line"><span class="comment"> *      非静态属性</span></span><br><span class="line"><span class="comment"> *      非静态代码块2</span></span><br><span class="line"><span class="comment"> *      非静态属性</span></span><br><span class="line"><span class="comment"> *      非静态代码块1</span></span><br><span class="line"><span class="comment"> *      无参构造函数</span></span><br><span class="line"><span class="comment"> */</span></span><br></pre></td></tr></table></figure>
-
-
-
-<p><em><strong>总结：</strong></em></p>
-<blockquote>
-<ul>
-<li>static代码块也叫静态代码块作用是对类进行初始化，它随着<em><strong>类的加载</strong></em>而执行，并且只能执行一次；构造代码块随着对象的创建而执行。</li>
+        <h1 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h1><p><em><strong>接口就是给出一些没有实现的方法，封装到一起等到需要实现时把这些方法写出来</strong></em></p>
+<p><em><strong>在JAVA编程语言中是一个抽象类型，是抽象方法的集合，接口通常以interface来声明。一个类通过继承接口的方式，从而来继承接口的抽象方法。</strong></em></p>
+<p><em><strong>接口并不是类，编写接口的方式和类很相似，但是它们属于不同的概念。类描述对象的属性和方法。接口则包含类要实现的方法。</strong></em></p>
+<p><em><strong>除非实现接口的类是抽象类，否则该类要定义接口中的所有方法。</strong></em></p>
+<p><em><strong>接口无法被实例化，但是可以被实现。一个实现接口的类，必须实现接口内所描述的所有方法，否则就必须声明为抽象类。另外，在 Java 中，接口类型可用来声明一个变量，他们可以成为一个空指针，或是被绑定在一个以此接口实现的对象。</strong></em></p>
+<h2 id="抽象类和接口的区别"><a href="#抽象类和接口的区别" class="headerlink" title="抽象类和接口的区别"></a>抽象类和接口的区别</h2><ul>
+<li><p>抽象类中的方法可以有方法体，就是能实现方法的具体功能，但是接口中的方法不行。</p>
+</li>
+<li><p>抽象类中的成员变量可以是各种类型的，而接口中的成员变量只能是 <strong>public static final</strong> 类型的（int a=1-&gt;public static final int a=1)。</p>
+</li>
+<li><p>接口中不能含有静态代码块以及静态方法(用 static 修饰的方法)，而抽象类是可以有静态代码块和静态方法。</p>
+</li>
+<li><p>一个类只能继承一个抽象类，而一个类却可以实现多个接口。</p>
+<span id="more"></span></li>
 </ul>
+<h2 id="接口实现"><a href="#接口实现" class="headerlink" title="接口实现"></a>接口实现</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">test</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">f1</span><span class="params">()</span></span>;</span><br><span class="line">           <span class="function"><span class="keyword">void</span> <span class="title">f2</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">interface</span> <span class="title">test2</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">f3</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">test1</span> <span class="keyword">implements</span> <span class="title">test</span>,<span class="title">test2</span></span>&#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">f1</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;f1&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">f2</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;f2&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">f3</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;f3&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">f</span><span class="params">()</span></span>&#123;</span><br><span class="line">        f1();</span><br><span class="line">        f2();</span><br><span class="line">        f3();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        test1 t1 = <span class="keyword">new</span> test1();</span><br><span class="line">        t1.f();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
 <blockquote>
-<blockquote>
-<p>类的加载</p>
 <ul>
-<li>创建对象实例时(new )</li>
-<li>创建子类对象实例父类也会被加载</li>
-<li>使用类的静态成员时</li>
+<li>接口是隐式抽象的，当声明一个接口的时候，不必使用<strong>abstract</strong>关键字。</li>
+<li>接口中每一个方法也是隐式抽象的，声明时同样不需要<strong>abstract</strong>关键字。</li>
+<li>接口中的方法都是公有的。</li>
 </ul>
 </blockquote>
-</blockquote>
-</blockquote>
-<blockquote>
-<ul>
-<li><p>构造代码块在创建对象实例时会被调用，每创建一次就调用一次。使用类的静态成员时不会被执行。</p>
-</li>
-<li><p>创建对象时调用顺序：</p>
-<blockquote>
-<ol>
-<li>调用静态代码块和静态属性（多个按照代码顺序调用）</li>
-<li>调用构造代码块和非静态属性（多个按照代码顺序）</li>
-<li>调用构造方法</li>
-</ol>
-</blockquote>
-</li>
+<h3 id="重写接口方法注意"><a href="#重写接口方法注意" class="headerlink" title="重写接口方法注意"></a>重写接口方法注意</h3><ul>
+<li>类在实现接口的方法时，不能抛出强制性异常，只能在接口中，或者继承接口的抽象类中抛出该强制性异常。</li>
+<li>类在重写方法时要保持一致的方法名，并且应该保持相同或者相兼容的返回值类型。</li>
+<li>如果实现接口的类是抽象类，那么就没必要实现该接口的方法。</li>
 </ul>
-</blockquote>
+<h3 id="实现接口时的规则"><a href="#实现接口时的规则" class="headerlink" title="实现接口时的规则"></a>实现接口时的规则</h3><ul>
+<li>一个类可以同时实现多个接口。</li>
+<li>一个类只能继承一个类，但是能实现多个接口。</li>
+<li>一个接口能继承另一个接口，这和类之间的继承比较相似。</li>
+<li>类的多继承是不合法，但接口允许多继承。</li>
+<li>接口的修饰符只能是public</li>
+</ul>
+<h2 id="接口和继承类的区别"><a href="#接口和继承类的区别" class="headerlink" title="接口和继承类的区别"></a>接口和继承类的区别</h2><ul>
+<li>继承的价值在于：解决代码复用性和可维护性</li>
+<li>接口的价值在于：设计，设计好的规范，让其它类去实现</li>
+<li>接口在一定程度上可实现代码解耦</li>
+</ul>
+<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><ul>
+<li><p>jdk8.0后接口可以有静态方法（static）、默认方法（default）。</p>
+</li>
+<li><p>接口具有多态性</p>
 <blockquote>
 <ul>
-<li><p>构造器隐藏了***super()***和构造代码块；静态代码块 、属性初始化在类加载时执行完毕，优先于构造器。</p>
+<li><p>多态参数</p>
 </li>
-<li><p>创建一个子类对象的调用顺序</p>
-<blockquote>
-<ol>
-<li>父类静态代码块和静态属性</li>
-<li>子类静态代码块和静态属性</li>
-<li>父类构造代码块和普通属性</li>
-<li>父类构造方法</li>
-<li>子类构造代码块和普通属性</li>
-<li>子类构造方法</li>
-</ol>
+<li><p>多态数组</p>
+</li>
+<li><p>多态传递</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">interface</span> <span class="title">test1</span></span>&#123; &#125;</span><br><span class="line"><span class="class"><span class="keyword">interface</span> <span class="title">test2</span> <span class="keyword">extends</span> <span class="title">test1</span></span>&#123; &#125;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">test</span> <span class="keyword">implements</span> <span class="title">test2</span></span>&#123;</span><br><span class="line">    test2 t2=<span class="keyword">new</span> test();</span><br><span class="line">    test1 t1=<span class="keyword">new</span> test();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
 </blockquote>
 </li>
 </ul>
-</blockquote>
-<blockquote>
-<ul>
-<li>静态代码块只能调用静态成员，构造代码块可以调用任何成员</li>
-</ul>
-</blockquote>
 
       
 
@@ -272,11 +257,11 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">代码块</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">接口</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">类加载</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">interface</a>
         		</li>
       		
 		</ul>
@@ -332,7 +317,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/08/29/%E4%BB%A3%E7%A0%81%E5%9D%97/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/08/30/%E6%8E%A5%E5%8F%A3/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -346,18 +331,18 @@
   
 <nav id="article-nav">
   
-    <a href="/2021/08/30/%E6%A8%A1%E6%9D%BF%E6%A8%A1%E5%BC%8F/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2021/08/30/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          模板模式
+          单例模式
         
       </div>
     </a>
   
   
-    <a href="/2021/08/29/%E6%8A%BD%E8%B1%A1%E7%B1%BB/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">抽象类</div>
+    <a href="/2021/08/30/%E6%A8%A1%E6%9D%BF%E6%A8%A1%E5%BC%8F/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">模板模式</div>
       <i class="icon-circle-right"></i>
     </a>
   
